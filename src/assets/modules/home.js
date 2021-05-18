@@ -2,7 +2,9 @@ function homePage() {
   clearPage();
   createNavbar();
   createMain();
+  addContent();
 }
+export { homePage, createNavbar, clearPage, createMain };
 
 function createNavbar() {
   // Navbar
@@ -43,13 +45,19 @@ function createMain() {
   title.setAttribute("id", "title");
   wrapper.append(title);
 
-  let titleH1 = document.createElement("h1");
-  titleH1.textContent = "Fastest Food in The West";
-  title.append(titleH1);
-
   let about = document.createElement("div");
   about.setAttribute("id", "about");
   wrapper.append(about);
+}
+
+function clearPage() {
+  content.textContent = "";
+}
+
+function addContent() {
+  let titleH1 = document.createElement("h1");
+  titleH1.textContent = "Fastest Food in The West";
+  title.append(titleH1);
 
   let aboutH1 = document.createElement("h1");
   aboutH1.textContent = "Fast Food Meets Fast Delivery!";
@@ -64,9 +72,3 @@ function createMain() {
   orderButton.setAttribute("id", "order-button");
   wrapper.append(orderButton);
 }
-
-function clearPage() {
-  content.textContent = "";
-}
-
-export { homePage, createNavbar, clearPage };

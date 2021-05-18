@@ -26,6 +26,7 @@ module.exports = {
           "sass-loader",
         ],
       },
+
       {
         test: /\.html$/,
         use: ["html-loader"],

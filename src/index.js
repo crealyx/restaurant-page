@@ -1,4 +1,5 @@
 import "./assets/styles/main.scss";
+
 // HMR
 if (module.hot) {
   module.hot.accept();
@@ -15,7 +16,7 @@ homePage();
 content.addEventListener("click", (ev) => {
   if (ev.target.id === "home") {
     homePage();
-  } else if (ev.target.id === "menu") {
+  } else if (ev.target.id === "menu" || ev.target.id === "order-button") {
     menuPage();
   }
 });

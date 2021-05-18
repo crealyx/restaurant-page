@@ -1,11 +1,17 @@
-$orange-gradient: linear-gradient(
+$primaryGradient: linear-gradient(
   90deg,
   rgba(255, 0, 0, 1) 0%,
   rgba(255, 203, 0, 1) 100%
 );
 
-$blue-gradient: linear-gradient(
+$secondaryGradient: linear-gradient(
   90deg,
   rgba(0, 255, 244, 1) 0%,
   rgba(225, 255, 0, 1) 100%
 );
+
+$navColor: rgb(0, 29, 34);
+
+$buttonColor: rgb(85, 255, 107);
+
+$transparentColor: rgba(61, 35, 0, 0.472);
