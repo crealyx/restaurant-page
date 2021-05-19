@@ -10,8 +10,6 @@ import { homePage } from "./assets/modules/home";
 import { menuPage } from "./assets/modules/menu";
 import { contactPage } from "./assets/modules/contact";
 
-const content = document.querySelector("#content");
-
 homePage();
 
 content.addEventListener("click", (ev) => {
