@@ -6,6 +6,8 @@ function homePage() {
 }
 export { homePage, createNavbar, clearPage, createMain };
 
+const content = document.querySelector("#content");
+
 function createNavbar() {
   // Navbar
   let navbar = document.createElement("ul");
