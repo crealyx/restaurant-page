@@ -29,19 +29,6 @@ function addContent() {
   menuGrid.setAttribute("id", "menu-grid");
   about.append(menuGrid);
 
-  // Pizza
-  // let food1Container = document.createElement("div");
-  // food1Container.setAttribute("id", "food1");
-  // let pizzaa = document.createElement("img");
-  // let food1Title = document.createElement("h2");
-  // let food1Button = document.createElement("button");
-  // pizzaa.setAttribute("src", pizzaImage);
-  // menuGrid.append(food1Container);
-  // food1Container.append(pizzaa);
-  // food1Container.append(food1Title);
-  // food1Container.append(food1Button);
-  // food1Title.textContent = "Delicious Pizza";
-  // food1Button.textContent = "ORDER";
   makeFood(
     "container1",
     "cont1",
@@ -66,7 +53,7 @@ function addContent() {
     "cont3",
     "donut",
     "title3",
-    "Do or donut",
+    "Do or Donut",
     "donutButton",
     donutImage
   );
@@ -97,17 +84,4 @@ function addContent() {
     titleVar.textContent = title;
     button.textContent = "ORDER";
   }
-  // // Hamburger
-  // let food2 = document.createElement("div");
-  // food2.setAttribute("id", "food2");
-  // let food2Title = document.createElement("h2");
-  // let food2Button = document.createElement("button");
-  // menuGrid.append(food2);
-  // food2.append(food2Title);
-  // food2.append(food2Button);
-
-  // let orderButton = document.createElement("button");
-  // orderButton.textContent = "ORDER HERE";
-  // orderButton.setAttribute("id", "order-button");
-  // wrapper.append(orderButton);
 }
