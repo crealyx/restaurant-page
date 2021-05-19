@@ -5,17 +5,21 @@ function menuPage() {
   createMain();
   addContent();
 }
-export { menuPage };
+export { menuPage, addTitle };
 
 import pizzaImage from "../img/pizza.png";
 import hamburgerImage from "../img/hamburger.png";
 import donutImage from "../img/donut.png";
 import friesImage from "../img/fries.png";
 
-function addContent() {
+function addTitle() {
   let titleH1 = document.createElement("h1");
   titleH1.textContent = "Fastest Food in The West";
   title.append(titleH1);
+}
+
+function addContent() {
+  addTitle();
 
   let aboutH1 = document.createElement("h1");
   aboutH1.textContent = "MENU";
@@ -62,7 +66,7 @@ function addContent() {
     "cont3",
     "donut",
     "title3",
-    "Do or donut, there is no fry",
+    "Do or donut",
     "donutButton",
     donutImage
   );

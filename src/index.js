@@ -8,6 +8,7 @@ if (module.hot) {
 
 import { homePage } from "./assets/modules/home";
 import { menuPage } from "./assets/modules/menu";
+import { contactPage } from "./assets/modules/contact";
 
 const content = document.querySelector("#content");
 
@@ -18,5 +19,7 @@ content.addEventListener("click", (ev) => {
     homePage();
   } else if (ev.target.id === "menu" || ev.target.id === "order-button") {
     menuPage();
+  } else if (ev.target.id === "contact") {
+    contactPage();
   }
 });
