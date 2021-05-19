@@ -26,7 +26,7 @@ function addContent() {
   let map = document.createElement("iframe");
   map.setAttribute(
     "src",
-    'https://www.google.com/maps/d/u/0/embed?mid=1WZFDhVfn6wswfNrE3NJYGO3Yu3jhrBod" width="640" height="480'
+    "https://www.google.com/maps/d/u/0/embed?mid=1WZFDhVfn6wswfNrE3NJYGO3Yu3jhrBod"
   );
   about.append(map);
 }
